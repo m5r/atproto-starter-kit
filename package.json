@@ -1,0 +1,33 @@
+{
+	"name": "atproto-starter-kit",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"build": "tsc",
+		"start": "node ./build/index.js",
+		"dev": "tsx ./src/index.ts"
+	},
+	"type": "module",
+	"license": "MIT",
+	"dependencies": {
+		"@atproto/api": "^0.2.7",
+		"dotenv": "^16.0.3"
+	},
+	"devDependencies": {
+		"@tsconfig/node20": "^1.0.0",
+		"@types/node": "^18.15.11",
+		"prettier": "^2.8.7",
+		"tsx": "^3.12.6",
+		"typescript": "^5.0.4"
+	},
+	"engines": {
+		"node": ">=18.12"
+	},
+	"prettier": {
+		"semi": true,
+		"trailingComma": "all",
+		"useTabs": true,
+		"tabWidth": 4,
+		"printWidth": 120
+	}
+}
